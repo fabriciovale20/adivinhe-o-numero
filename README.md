@@ -34,4 +34,4 @@ pipenv install
 python manage.py runserver
 ```
 
-![alt text](static/acertou.png) ![alt text](static/errou.png)
+![alt text](jogo.png) ![alt text](static/acertou.png) ![alt text](static/errou.png)
