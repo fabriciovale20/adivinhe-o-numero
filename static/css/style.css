@@ -1,4 +1,39 @@
 body {
-    background-color: #2F4F4F;
+    background-image: url(background.jpg);
     color: white;
+    line-height: 1.5;
+    font-family: Arial;
+}
+
+button {
+    background: #007fff;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #eee;
+    border-radius: 20px; /* Arredonda as bordas do seu botão.*/
+    text-shadow:none;
+    cursor: pointer;
+}
+
+/* Quando passa o mouse por cima HOVER */
+button:hover {
+    background: #016ABC;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    text-shadow:none;
+    cursor: pointer;
+}
+
+label {
+    line-height: 2;
+    text-font: bold;
+}
+
+input {
+    text-align: center;
+    width: 130px;
+    border-radius: 20px;
+    height: 20px;
 }

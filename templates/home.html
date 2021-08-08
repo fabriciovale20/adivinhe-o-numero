@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Game Adivinhe</title>
     <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename= 'favicon.jpg') }}">
 </head>
 <body>
 <center>
@@ -11,8 +12,8 @@
     <h3>Tente a sorte, escolha um número entre 1 e 10 e acerte o número escolhido.</h3>
   <form action="{{ url_for('home') }}" method="POST">
     <label for="">Escolha um número</label><br>
-    <input type="text" name="valor" placeholder="Digíte um número">
-    <button>Enviar</button>
+    <input type="text" name="valor" placeholder="Digite um número" align=""><br><br>
+    <a class="btn btn-primary"><button>Enviar</button></a>
   </form>
 </center>
 </body>
