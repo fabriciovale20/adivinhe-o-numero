@@ -5,7 +5,7 @@
 **Tecnologias utilizadas:**
 - Python 3.9;
 - Flask;
-- REST;
+- API REST;
 - Random;
 
 ## Como rodar o projeto:
