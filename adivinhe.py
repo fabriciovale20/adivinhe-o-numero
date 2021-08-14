@@ -13,7 +13,7 @@ def home():
             if request.method == 'GET':
                 return render_template('home.html')  # Página inicial
             else:
-                numero_computador = randint(primeiro_valor, ultimo_valor)  # Range de números, é possível altera-los acima
+                numero_computador = randint(primeiro_valor, ultimo_valor)  # Range de números, possível altera-los acima
                 valor = int(request.form.get('valor'))  # Recebe o valor informado pelo usuário
 
                 # Faz a condição se o usuário escolheu o mesmo número do computador
