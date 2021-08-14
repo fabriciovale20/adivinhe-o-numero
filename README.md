@@ -31,7 +31,7 @@ pipenv install
 ```
 6. Rode o servidor.
 ```
-python manage.py runserver
+python adivinhe.py
 ```
 
 ![alt text](jogo.png) ![alt text](static/acertou.png) ![alt text](static/errou.png)
