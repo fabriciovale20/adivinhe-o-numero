@@ -8,6 +8,9 @@
 - API REST;
 - Random;
 
+Site disponível Online
+https://adivinhe-o-numero.up.railway.app
+
 ## Como rodar o projeto:
 1. Clone o repositório;
 ```
@@ -27,7 +30,7 @@ python -m venv .venv
 ```
 5. Instale as dependências;
 ```
-pipenv install
+pip install -r requirements.txt
 ```
 6. Rode o servidor.
 ```
