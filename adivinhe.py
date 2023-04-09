@@ -9,7 +9,7 @@ def home():
     while True:
         try:
             primeiro_valor = 1  # Valor inicial, alterável
-            ultimo_valor = 10  # Valor final, alterável
+            ultimo_valor = 3  # Valor final, alterável
             if request.method == 'GET':
                 return render_template('home.html')  # Página inicial
             else:
@@ -24,6 +24,6 @@ def home():
         except ValueError:
             return render_template('home.html')  # Página inicial
 
-
+# Manter o app rodando
 if __name__ == '__main__':
     app.run(debug=True)
