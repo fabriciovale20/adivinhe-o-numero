@@ -37,4 +37,5 @@ pip install -r requirements.txt
 python adivinhe.py
 ```
 
-![alt text](jogo.png) ![alt text](static/acertou.png) ![alt text](static/errou.png)
+# Jogando Adivinhe o Número 🎮
+https://user-images.githubusercontent.com/73182618/235308571-f43b279f-ebed-4253-a04e-3afc894c9e48.mp4
