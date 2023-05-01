@@ -1,7 +1,7 @@
 # Aplicação Web <img src="./static/logo-fv.png" width="30px;" alt="Foto do Fabrício Vale"/><br>
 
 ## **Adivinhe o Número**
-*O usuário precisa acertar o número gerado aleatoriamente.*
+*O usuário precisa acertar o número gerado aleatoriamente. Incluso ferramenta de coleta de logs (Lib logging)*
 
 ## Ferramentas:
 <div style="display: inline_block">
